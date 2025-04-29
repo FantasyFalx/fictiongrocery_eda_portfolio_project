@@ -7593,7 +7593,8 @@ descriptive statistics. For data visualization I used Matplotlib and Seaborn.</p
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Section-1:-Initial-Exploration-and-Data-Cleaning">Section 1: Initial Exploration and Data Cleaning<a class="anchor-link" href="#Section-1:-Initial-Exploration-and-Data-Cleaning">¶</a></h4>
+<p><a id="section-1-initial-exploration-and-data-cleaning"></a></p>
+<h2 id="Section-1:-Initial-Exploration-and-Data-Cleaning">Section 1: Initial Exploration and Data Cleaning<a class="anchor-link" href="#Section-1:-Initial-Exploration-and-Data-Cleaning">¶</a></h2>
 </div>
 </div>
 </div>
@@ -7604,6 +7605,7 @@ descriptive statistics. For data visualization I used Matplotlib and Seaborn.</p
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><a id="section-1-initial-exploration"></a></p>
 <h4 id="Section-1.1:-Initial-Exploration">Section 1.1: Initial Exploration<a class="anchor-link" href="#Section-1.1:-Initial-Exploration">¶</a></h4>
 </div>
 </div>
@@ -7628,7 +7630,7 @@ descriptive statistics. For data visualization I used Matplotlib and Seaborn.</p
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [31]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
@@ -7645,7 +7647,7 @@ descriptive statistics. For data visualization I used Matplotlib and Seaborn.</p
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [32]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">sales_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"fiction_grocery_sales.csv"</span><span class="p">)</span>
@@ -7673,7 +7675,7 @@ the dataset.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [33]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">data_characteristics</span> <span class="o">=</span> <span class="p">(</span>
@@ -7724,7 +7726,7 @@ Sample Set:
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[33]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -7944,6 +7946,7 @@ data.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><a id="section-1.2-data-cleaning"></a></p>
 <h4 id="Section-1.2:-Data-Cleaning">Section 1.2: Data Cleaning<a class="anchor-link" href="#Section-1.2:-Data-Cleaning">¶</a></h4>
 </div>
 </div>
@@ -7982,7 +7985,7 @@ data.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [34]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">sales_data</span> <span class="o">=</span> <span class="n">sales_data</span><span class="o">.</span><span class="n">convert_dtypes</span><span class="p">()</span>
@@ -7997,7 +8000,7 @@ data.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[34]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>sale_id                      Int64
 branch              string[python]
@@ -8040,7 +8043,7 @@ This can be seen when we viewed the 1st 10 records of the dataset.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [35]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">sales_data</span> <span class="o">=</span> <span class="n">sales_data</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">"sale_id"</span><span class="p">,</span><span class="s2">"product_category"</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
@@ -8065,7 +8068,7 @@ This can be seen when we viewed the 1st 10 records of the dataset.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">new_names</span> <span class="o">=</span> <span class="p">{</span>
@@ -8096,7 +8099,7 @@ we will end up with a 6 key map which stores sub dataframes associated with the 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">product_names</span> <span class="o">=</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">sales_data</span><span class="o">.</span><span class="n">products</span><span class="o">.</span><span class="n">unique</span><span class="p">())</span>
@@ -8134,7 +8137,7 @@ store and branch.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">keys</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">store_map</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
@@ -8157,7 +8160,7 @@ store and branch.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [39]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">product_count_visualizer</span><span class="p">(</span><span class="n">keys</span><span class="p">,</span> <span class="n">counts</span><span class="p">)</span>
@@ -8196,7 +8199,7 @@ We can drop this column and shift our analysis to a per-city, per-product basis.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [40]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">sales_data</span> <span class="o">=</span> <span class="n">sales_data</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s2">"branch"</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
@@ -8221,7 +8224,7 @@ We can drop this column and shift our analysis to a per-city, per-product basis.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [41]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Sales Data Dimensions: </span><span class="si">{</span><span class="n">sales_data</span><span class="o">.</span><span class="n">shape</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
@@ -8264,7 +8267,7 @@ how to fill the present null values.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [42]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">labels</span> <span class="o">=</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">sales_data</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
@@ -8295,7 +8298,7 @@ how to fill the present null values.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [43]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">null_count_visualizer</span><span class="p">(</span><span class="n">values</span><span class="p">,</span> <span class="n">labels</span><span class="p">)</span>
@@ -8335,7 +8338,7 @@ values.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [44]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Function to output distributions of data for each city</span>
@@ -8369,7 +8372,7 @@ values.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [45]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">product_distribution_visualizer</span><span class="p">(</span><span class="n">city_names</span><span class="p">,</span> <span class="n">numerical_columns</span><span class="p">)</span>
@@ -8431,7 +8434,7 @@ process was completed properly.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [46]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">null_filler</span><span class="p">(</span><span class="n">cities</span><span class="p">:</span> <span class="nb">tuple</span><span class="p">,</span> <span class="n">columns</span><span class="p">:</span> <span class="nb">tuple</span><span class="p">,</span> <span class="n">products</span><span class="p">:</span> <span class="nb">tuple</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
@@ -8470,7 +8473,7 @@ process was completed properly.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [47]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">null_filler_visualizer</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
@@ -8504,7 +8507,7 @@ process was completed properly.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [48]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">null_filler_visualizer</span><span class="p">()</span>
@@ -8549,6 +8552,7 @@ our data cleaning complete we can now move onto feature engineering.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><a id="section-2-feature-engineering"></a></p>
 <h3 id="Section-2:-Feature-Engineering">Section 2: Feature Engineering<a class="anchor-link" href="#Section-2:-Feature-Engineering">¶</a></h3>
 </div>
 </div>
@@ -8581,7 +8585,7 @@ store.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [49]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">gross_profit</span> <span class="o">=</span> <span class="n">sales_data</span><span class="p">[</span><span class="s2">"unit_price"</span><span class="p">]</span> <span class="o">*</span> <span class="n">sales_data</span><span class="p">[</span><span class="s2">"quantity"</span><span class="p">]</span>
@@ -8630,7 +8634,7 @@ dataset.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [50]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">sales_data</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
@@ -8644,7 +8648,7 @@ dataset.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[50]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8844,7 +8848,19 @@ The new features of gross/net sales will allow us to uncover new sales insights 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Section-3:-Data-Visualizations">Section 3: Data Visualizations<a class="anchor-link" href="#Section-3:-Data-Visualizations">¶</a></h3><p>Upon completing feature engineering, we can now extract new insights in the data
+<p><a id="section-3-data-visualizations"></a></p>
+<h3 id="Section-3:-Data-Visualizations">Section 3: Data Visualizations<a class="anchor-link" href="#Section-3:-Data-Visualizations">¶</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Upon completing feature engineering, we can now extract new insights in the data
 with the aid of visuals. This section will perform univariate and bivariate
 analysis on the data. The univariate analysis will visualize the contribution
 of all products to total net and gross profit per store. The bivariate analysis
@@ -8862,6 +8878,7 @@ ideal business recommendations for FictionGroceries management.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><a id="section-3.1-univariate-analysis"></a></p>
 <h5 id="Section-3.1:-Univariate-Analysis">Section 3.1: Univariate Analysis<a class="anchor-link" href="#Section-3.1:-Univariate-Analysis">¶</a></h5>
 </div>
 </div>
@@ -8885,7 +8902,7 @@ will provide a clear picture of the percentage contribution each product has on 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [51]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">gross_and_net_contribution_extractor</span><span class="p">(</span><span class="n">cities</span><span class="p">:</span> <span class="nb">tuple</span><span class="p">,</span> <span class="n">products</span><span class="p">:</span> <span class="nb">tuple</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
@@ -8927,7 +8944,7 @@ will provide a clear picture of the percentage contribution each product has on 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">gross_and_net_contribution_visualizer</span><span class="p">(</span><span class="n">cities</span><span class="p">:</span> <span class="nb">tuple</span><span class="p">,</span> <span class="n">products</span><span class="p">:</span> <span class="nb">tuple</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
@@ -8942,15 +8959,8 @@ will provide a clear picture of the percentage contribution each product has on 
             <span class="n">city</span> <span class="o">=</span> <span class="n">cities</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
             <span class="c1"># Conditional serves the purpose of identifying gross and net profit</span>
             <span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-                <span class="n">profit_data</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s2">"gross"</span><span class="p">][</span><span class="n">city</span><span class="p">]</span>
-                <span class="n">gross_profit</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="nb">sum</span><span class="p">(</span><span class="n">profit_data</span><span class="p">),</span><span class="mi">2</span><span class="p">)</span>
-                <span class="n">ax</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">j</span><span class="p">]</span><span class="o">.</span><span class="n">pie</span><span class="p">(</span><span class="n">profit_data</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="n">products</span><span class="p">,</span> 
-                            <span class="n">colors</span><span class="o">=</span><span class="n">COLORS</span><span class="p">,</span> <span class="n">autopct</span><span class="o">=</span><span class="s2">"</span><span class="si">%1.1f%%</span><span class="s2">"</span><span class="p">,</span> 
-                            <span class="n">textprops</span><span class="o">=</span><span class="p">{</span><span class="s2">"fontsize"</span><span class="p">:</span> <span class="mi">6</span><span class="p">})</span>
-                <span class="n">ax</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">j</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span>
-                    <span class="sa">f</span><span class="s2">"Gross Profit Contribution for </span><span class="si">{</span><span class="n">city</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">8</span>
-                <span class="p">)</span>
-                <span class="n">ax</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">j</span><span class="p">]</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span>
+                <span class="n">profit_data</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s2">"gross"</span><span class="o">&lt;</span><span class="n">a</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"section-4.2-conclusion"</span><span class="o">&gt;&lt;/</span><span class="n">a</span><span class="o">&gt;</span>
+
                     <span class="sa">f</span><span class="s2">"Gross Profit for </span><span class="si">{</span><span class="n">city</span><span class="si">}</span><span class="s2">: $</span><span class="si">{</span><span class="n">gross_profit</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">7</span>
                 <span class="p">)</span>
 
@@ -8982,7 +8992,7 @@ will provide a clear picture of the percentage contribution each product has on 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [53]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">gross_and_net_contribution_visualizer</span><span class="p">(</span><span class="n">city_names</span><span class="p">,</span> <span class="n">product_names</span><span class="p">)</span>
@@ -9022,6 +9032,7 @@ will provide a clear picture of the percentage contribution each product has on 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><a id="section-3.2-bivariate-analysis"></a></p>
 <h5 id="Section-3.2:-Bivariate-Analysis">Section 3.2: Bivariate Analysis<a class="anchor-link" href="#Section-3.2:-Bivariate-Analysis">¶</a></h5>
 </div>
 </div>
@@ -9053,7 +9064,7 @@ will provide a clear picture of the percentage contribution each product has on 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [54]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">gender_member_count_visualizer</span><span class="p">(</span><span class="n">cities</span><span class="p">:</span> <span class="nb">tuple</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
@@ -9081,7 +9092,7 @@ will provide a clear picture of the percentage contribution each product has on 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [55]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">gender_member_count_visualizer</span><span class="p">(</span><span class="n">city_names</span><span class="p">)</span>
@@ -9136,7 +9147,7 @@ will provide a clear picture of the percentage contribution each product has on 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [56]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">member_status_profit_contribution_visualizer</span><span class="p">(</span><span class="n">cities</span><span class="p">:</span> <span class="nb">tuple</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
@@ -9170,7 +9181,7 @@ will provide a clear picture of the percentage contribution each product has on 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [28]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [57]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">member_status_profit_contribution_visualizer</span><span class="p">(</span><span class="n">city_names</span><span class="p">)</span>
@@ -9218,7 +9229,7 @@ will provide a clear picture of the percentage contribution each product has on 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [58]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">product_metric_correlation_visualizer</span><span class="p">(</span><span class="n">target_columns</span><span class="p">:</span> <span class="nb">tuple</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
@@ -9288,6 +9299,7 @@ will provide a clear picture of the percentage contribution each product has on 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><a id="section-4-recommendations-and-conclusion"></a></p>
 <h3 id="Section-4:-Recommendations-and-Conlcusion">Section 4: Recommendations and Conlcusion<a class="anchor-link" href="#Section-4:-Recommendations-and-Conlcusion">¶</a></h3>
 </div>
 </div>
@@ -9299,6 +9311,7 @@ will provide a clear picture of the percentage contribution each product has on 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><a id="section-4.1-recommendations"></a></p>
 <h5 id="Section-4.1:-Recommendations">Section 4.1: Recommendations<a class="anchor-link" href="#Section-4.1:-Recommendations">¶</a></h5>
 </div>
 </div>
@@ -9332,6 +9345,7 @@ will provide a clear picture of the percentage contribution each product has on 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><a id="section-4.2-conclusion"></a></p>
 <h5 id="Section-4.2:-Conclusion">Section 4.2: Conclusion<a class="anchor-link" href="#Section-4.2:-Conclusion">¶</a></h5>
 </div>
 </div>
@@ -9343,7 +9357,7 @@ will provide a clear picture of the percentage contribution each product has on 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Throughout this exploratory data analysis project, we completed several key steps. We first cleaned and optimized the dataset provided to us by FictionGroceries management. In our data cleaning section we converted data types to their proper format, and filled in missing values. We then added new features to the dataset such as gross and net profit per sale. With these new features we conducted univariate and bivariate analysis with the aid of visuals. With new insights extracted from our analysis we then provided ownership with recommendations on how to further improve and explore their business. This concludes the exploratory data analysis.</p>
+<p>Throughout this exploratory data analysis project, we completed several key steps. We first cleaned and optimized the dataset provided to us by FictionGroceries management. In our data cleaning section we converted data types to their proper format, and filled in missing values. We then added new features to the dataset such as gross and net profit per sale. With these new features we conducted univariate and bivariate analysis with the aid of visuals. With new insights extracted from our analysis we then provided ownership with recommendations on how to further improve and explore their business. This concludes the exploratory data analysis project.</p>
 </div>
 </div>
 </div>
