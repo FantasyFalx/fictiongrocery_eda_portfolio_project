@@ -19,7 +19,15 @@ This repository contains a completed exploratory data analysis of FictionGroceri
 
 ![fiction_grocery](https://github.com/user-attachments/assets/19982db8-230b-4e6c-9352-def0e6956f76)
 
-This project analzyes profit drivers, customer demographics, and correlations betweeen variables associated with sales. Insights are translated into recommendations for store management to improve and conduct deeper analysis into their business.
+This project analyzes profit drivers, customer demographics, and correlations between variables associated with sales. Insights are translated into recommendations for store management to improve and conduct deeper analysis into their business.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+For questions or feedback, please contact [cstim.murdoch@gmail.com](mailto:cstim.murdoch@gmail.com).
 
 ---
 
