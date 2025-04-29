@@ -17,6 +17,8 @@ This repository contains a completed exploratory data analysis of FictionGroceri
 
 ## 📬 Summary
 
+![fiction_grocery](https://github.com/user-attachments/assets/19982db8-230b-4e6c-9352-def0e6956f76)
+
 This project analzyes profit drivers, customer demographics, and correlations betweeen variables associated with sales. Insights are translated into recommendations for store management to improve and conduct deeper analysis into their business.
 
 ---
