@@ -1,6 +1,6 @@
 # 🛒 FictionGroceries EDA Project
 
-![fiction_grocery_meeting](https://github.com/user-attachments/assets/a76d003b-c1d6-4d7e-9a12-756d7e6a2bc1)
+![fiction_grocery](https://github.com/user-attachments/assets/18dc2d54-0a54-415e-b869-c45f0ceee44d)
 
 This repository contains a completed exploratory data analysis of FictionGroceries' sales data. FictionGroceries is a fictional grocery store chain seeking insights to improve its business performance. The project includes data cleaning, feature engineering, univariate and bivariate visualizations, and actionable business recommendations
 
@@ -16,8 +16,6 @@ This repository contains a completed exploratory data analysis of FictionGroceri
 - HTML export for sharing
 
 ## 📬 Summary
-
-![fiction_grocery](https://github.com/user-attachments/assets/1a52ae78-c78a-4d90-9929-0f31152b6561)
 
 This project analzyes profit drivers, customer demographics, and correlations betweeen variables associated with sales. Insights are translated into recommendations for store management to improve and conduct deeper analysis into their business.
 
