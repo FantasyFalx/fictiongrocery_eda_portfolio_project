@@ -1,1 +1,1 @@
-# fictiongrocery_eda_portfolio_project
+# FictionGrocery Exploratory Data Analysis Project
