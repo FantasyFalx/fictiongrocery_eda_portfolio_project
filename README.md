@@ -11,8 +11,8 @@ This repository contains a completed exploratory data analysis of FictionGroceri
 
 ## 🧰 Tools Used
 
-- Python (Numpy,Pandas, Matplotlib, Seaborn)
-- Jupyter Notebook / Colab
+- Python (Numpy, Pandas, Matplotlib, Seaborn)
+- Jupyter Notebook
 - HTML export for sharing
 
 ## 📬 Summary
