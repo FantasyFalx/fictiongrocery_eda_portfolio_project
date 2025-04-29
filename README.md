@@ -6,8 +6,8 @@ This repository contains a completed exploratory data analysis of FictionGroceri
 
 ## 📂 Contents
 
-- `grocery_store_eda.html` — Final analysis notebook (open this file to view the project)
-- `fiction_grocery_sales.csv` — Raw sales data
+- [Project Markdown](#https://fantasyfalx.github.io/fictiongrocery_eda_portfolio_project/) -- Final Notebook
+- `fiction_grocery_sales.csv` -- Raw sales data
 
 ## 🧰 Tools Used
 
