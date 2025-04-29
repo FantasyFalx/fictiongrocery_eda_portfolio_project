@@ -32,4 +32,4 @@ For questions or feedback, please contact [cstim.murdoch@gmail.com](mailto:cstim
 ---
 
 *Author: George Stimson*  
-*Role: Data Science Portfolio Project*
+*Role: Data Analyst/Scientist*
