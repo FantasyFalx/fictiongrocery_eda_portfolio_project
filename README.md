@@ -6,20 +6,20 @@ This repository contains a completed exploratory data analysis of FictionGroceri
 
 ## 📂 Contents
 
-- `grocery_store_eda.html` — Final analysis notebook (open this file to view the project)
-- `fiction_grocery_sales.csv` — Raw sales data
+- [Project Markdown](https://fantasyfalx.github.io/fictiongrocery_eda_portfolio_project/) -- Final Notebook
+- `fiction_grocery_sales.csv` -- Raw sales data
 
 ## 🧰 Tools Used
 
-- Python (Numpy,Pandas, Matplotlib, Seaborn)
-- Jupyter Notebook / Colab
+- Python (Numpy, Pandas, Matplotlib, Seaborn)
+- Jupyter Notebook
 - HTML export for sharing
 
 ## 📬 Summary
 
 ![fiction_grocery](https://github.com/user-attachments/assets/19982db8-230b-4e6c-9352-def0e6956f76)
 
-This project analyzes profit drivers, customer demographics, and correlations between variables associated with sales. Insights are translated into recommendations for store management to improve and conduct deeper analysis into their business.
+This project analyzes profit drivers, customer demographics, and correlations between variables associated with sales. Insights are translated into recommendations for store management to improve and conduct deeper analysis for their business.
 
 ## License
 
